@@ -1,0 +1,41 @@
+.leaflet-container .leaflet-control-attribution,
+.leaflet-container .leaflet-control-scale {
+    display: none !important;
+}
+
+.legend {
+    padding: 6px 8px;
+    border-radius: 5px;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #555;
+    background: rgba(255, 255, 255, .8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+}
+
+.legend ul {
+    clear: both;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.legend li {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+}
+
+.legend .min {
+    float: left;
+    padding-bottom: 5px;
+}
+
+.legend .max {
+    float: right;
+}
+
+.legend .showName {
+    display: inline-block;
+    width: 30px;
+}
